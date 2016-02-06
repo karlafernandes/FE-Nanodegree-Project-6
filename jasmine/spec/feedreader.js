@@ -83,6 +83,20 @@ $(function() {
 			$menuIcon.click();
 			expect($body.hasClass('menu-hidden')).toBe(true);
 		});
+		
+         /* NEW FEAT: Test that the actual menu item is selected
+          * when his feed is displayed and the others to don't have it
+          */
+		it('changes css for active menu item', function () {
+			var $menuItem = $('.menu-item');
+			
+			for (var i = 0; i < allFeeds.length; i++) {
+				expect($menuItem.hasClass('active')).toBe(false);
+			};			
+
+			$menuItem.click();
+			expect($menuItem.hasClass('active')).toBe(true);
+		});		
     });
 
     /* TODO: Write a new test suite named "Initial Entries" */
