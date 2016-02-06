@@ -80,7 +80,9 @@ $(function() {
 			$menuIcon.click();
 			expect($body.hasClass('menu-hidden')).toBe(true);
 		});
+    });
 
+    describe('Initial Entries', function() {
     /* TODO: Write a new test suite named "Initial Entries" */
 
         /* TODO: Write a test that ensures when the loadFeed
