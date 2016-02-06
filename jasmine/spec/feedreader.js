@@ -35,7 +35,7 @@ $(function() {
 			for (var i = 0; i < allFeeds.length; i++) {
 				expect(allFeeds[i].url).toBeDefined();
 				expect(allFeeds[i].url.length).not.toBe(0);
-			};
+			}
 		});
 
 
@@ -47,7 +47,7 @@ $(function() {
 			for (var i = 0; i < allFeeds.length; i++) {
 				expect(allFeeds[i].name).toBeDefined();
 				expect(allFeeds[i].name.length).not.toBe(0);
-			};
+			}
 		});
 
     });
@@ -92,7 +92,7 @@ $(function() {
 			
 			for (var i = 0; i < allFeeds.length; i++) {
 				expect($menuItem.hasClass('active')).toBe(false);
-			};			
+			}			
 
 			$menuItem.click();
 			expect($menuItem.hasClass('active')).toBe(true);

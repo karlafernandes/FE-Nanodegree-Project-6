@@ -1,10 +1,18 @@
 Feed Reader Testing
 ===============================
 
+## What I have done
+
+1. Downloaded the assets, reviewed their functionalities in my browser
+2. Explored the applications files
+3. Created tests required for the application to run free of errors
+4. Created a new test for the menu item to change to active when the feed is been showed
+5. All tests passed, minus the new feature that must be implemented
+
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
-
 
 ## Why this Project?
 
